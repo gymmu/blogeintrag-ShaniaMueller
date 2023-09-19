@@ -30,13 +30,27 @@ body {
 }
 
 .text-next-to-img > .text {
-  border: 1px gold;
-  padding: 1rem 2rem;
+  border:2px gold;
+  padding: 0.5rem 2rem;
+}
+
+.text-left
+{
+border: 2px gold ;
+padding: 4rem 8rem
+
 }
 
 .text-next-to-img > img {
-  width: 70%;
+  width: 85%;
   
 }
 
 
+
+  .spread {
+    transition: all 1s ease-in-out;
+  }
+  .spread:hover {
+    letter-spacing: 1rem;
+  }
