@@ -4,8 +4,32 @@
   box-sizing: content-box;
 }
 
+h1 {
+color: black;
+background-color: gold;
+
+}
+
+
 body {
-  margin: 0;
-  background-color: lightgray;
+  text-align: center;
+  background-color:antiquewhite;
   font-family: sans-serif;
+
+}
+
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
+  gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
+}
+
+.text-next-to-img > .text {
+  border: 2px solid 
+  padding: 1rem 2rem;
+}
+
+.text-next-to-img > img {
+  width: 80%;
+  
 }
