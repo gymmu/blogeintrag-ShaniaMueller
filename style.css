@@ -20,16 +20,23 @@ body {
 
 .text-next-to-img {
   display: grid;
-  grid-template-columns: 70% auto; /* gibt an wie der Platz aufgeteilt wird. */
-  gap: 1rem; /* Gibt an wie viel Platz zwischen den Elementen ist. */
+  grid-template-columns: 70% auto; 
+}
+
+.img-left {
+
+  grid-template-columns: auto 70%; 
+
 }
 
 .text-next-to-img > .text {
-  border: 2px solid 
+  border: 1px gold;
   padding: 1rem 2rem;
 }
 
 .text-next-to-img > img {
-  width: 80%;
+  width: 70%;
   
 }
+
+
