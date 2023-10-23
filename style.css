@@ -4,8 +4,53 @@
   box-sizing: content-box;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+h1 {
+color: black;
+background-color: gold;
+
 }
+
+
+body {
+  text-align: center;
+  background-color:antiquewhite;
+  font-family: sans-serif;
+
+}
+
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 70% auto; 
+}
+
+.img-left {
+
+  grid-template-columns: auto 70%; 
+
+}
+
+.text-next-to-img > .text {
+  border:2px gold;
+  padding: 0.5rem 2rem;
+}
+
+.text-left
+{
+border: 2px gold ;
+padding: 4rem 8rem
+
+}
+
+.text-next-to-img > img {
+  width: 85%;
+  
+}
+
+
+
+  .spread {
+    transition: all 1s ease-in-out;
+  }
+  .spread:hover {
+    letter-spacing: 1rem;
+  }
